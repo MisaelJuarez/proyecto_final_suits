@@ -1,0 +1,20 @@
+.nav {
+    /* background-color: rgba(19, 18, 18, 0.892); */
+    background-color: #1e1d1dee;
+    z-index: 10;
+}
+
+.text {
+    color: white;
+}
+.text:hover {
+    color: white;
+}
+.text:focus {
+    color: white;
+}
+
+.nav-link:hover {
+    color: rgb(0, 136, 255);
+    transition: all 0.3s ease;
+}

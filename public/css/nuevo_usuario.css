@@ -1,0 +1,29 @@
+body {
+    background-image: linear-gradient(to right top, #b926be, #a725bd, #9424bc, #7f24bb, #6925b9);
+    background-attachment: fixed; 
+}
+
+form {
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.1); 
+    border-radius: 15px; 
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); 
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px); 
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+#btn-nuevo-usuario {
+    background-image: linear-gradient(to right top, #6d1271, #671276, #60147c, #571681, #4c1987);
+    transition: transform 0.1s ease;
+}
+#btn-nuevo-usuario:hover {
+    background-image: linear-gradient(to right top, #8b1890, #831996, #791a9c, #6e1da3, #6021a9);
+}
+#btn-nuevo-usuario:focus {
+    outline: none;
+    box-shadow: none;
+}
+#btn-nuevo-usuario:active {
+    transform: scale(0.95); 
+}
